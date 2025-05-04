@@ -1,9 +1,9 @@
 import express from 'express';
-import taskRouter from './task/task.routes'; // Import taskRouter
-import errorHandler from './middleware/error-handler'; // Import errorHandler
-import requestLogger from './middleware/logger'; // Import requestLogger
-import config from './config'; // Import config
-import authMiddleware from './middleware/auth'; // Import authMiddleware
+import taskRouter from './task/task.routes';
+import errorHandler from './middleware/error-handler';
+import requestLogger from './middleware/logger'; 
+import config from './config'; 
+import authMiddleware from './middleware/auth'; 
 
 const app = express();
 
