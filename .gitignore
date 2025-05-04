@@ -1,9 +1,19 @@
 
+
+
+# Python environments and caches
 .venv/
 __pycache__/
+# Environment files
 .env
-.vscode
+# VS Code settings
+.vscode/
+# macOS system files
 .DS_Store
-node_modules
+
+# Node modules and build output
+dist/
+node_modules/
+
+# Tab index files
 .idx
-dist
