@@ -5,6 +5,7 @@ import requestLogger from './middleware/logger';
 import config from './config'; 
 import authMiddleware from './middleware/auth'; 
 
+
 const app = express();
 
 // Middleware
